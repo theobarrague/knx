@@ -20,6 +20,7 @@ pyenv global 3.6.13
 python -m venv knx
 cd knx
 source bin/activate
+python -m pip install scapy
 git clone git@github.com:theobarrague/knx.git
 git clone git@github.com:theobarrague/bof.git
 ln -s $(pwd)/bof/bof $(pwd)/knx/bof
